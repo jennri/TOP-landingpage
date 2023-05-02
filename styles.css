@@ -1,0 +1,184 @@
+body {
+    background-color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gadugi', sans-serif;
+    font-size: 20px;
+}
+
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-strip {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 60px 20px 60px;
+}
+
+.logo {
+    font-family: 'Gadugi', sans-serif;
+    margin-right: auto;
+    
+}
+
+.header-link {
+    display: flex;
+    margin-left: auto;
+}
+
+.header-link a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Gadugi', sans-serif;
+}
+ 
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 50px 20px;
+}
+
+.header-image img{
+    width: 400px;
+    height: auto;
+    padding: 0px 20px;
+}
+.content {
+    font-family: 'Gadugi', sans-serif;
+    width: 400px;
+}
+
+.content button {
+    background-color: #4285F4;
+    color: #F9FAF8;
+    margin: 25px 0px 0px 0px;
+    padding: 20px 25px;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 6px;
+    text-align: center;
+    border: none;
+}
+
+.content button:active {
+    background-color: #528ad8ab;
+    color: #F9FAF8;
+}
+
+.infomation {
+    background-color: #F9FAF8;
+    font-family: 'Gadugi', sans-serif;
+    text-align: center;
+}
+
+.infomation-title p {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.infomation-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infomation-images img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #528ad8ab;
+    border-radius: 5px;
+    margin: 5px 20px 0px 20px;
+}
+
+.infomation-images p{
+    height: auto;
+    font-size: small;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+}
+
+.customer-feedback {
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container{
+    flex-direction: column;
+    padding: 30px 100px;
+    margin: 0px 0px 100px 0px;
+}
+
+.quote p{
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: center;
+    font-size: 36px;
+    padding: 20px 70px 0px 70px;
+}
+.customer-name p{
+    font-weight: bolder;
+    color: #1F2937;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px 400px 0px 800px;
+}
+
+
+.signing-up-container {
+    background-color: #4285F4;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 500px 20px 500px;
+    padding: 0px 0px 10px 0px;
+    display: flex;
+    border-radius: 15px;
+    color: #F9FAF8;
+}
+
+.signing-up-content {
+    padding: 0px 100px 0px 70px;
+    margin-left: auto;
+}
+
+.signing-up-button {
+    margin-right: auto;
+    
+}
+
+.signing-up-button button{
+    background-color: #F9FAF8;
+    color: #4285F4;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 6px;
+    text-align: center;
+    padding: 15px 25px;
+    font-size: 14px;
+    border: none;
+}
+
+.signing-up-button button:active{
+    background-color: #d6d6d6;
+    color: #4285F4;
+}
+
+.footer {
+    margin: 40px 0px 0px 0px;
+    border: 10px solid #1F2937;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+}
