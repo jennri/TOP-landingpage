@@ -12,16 +12,17 @@
 <body>
     <div class="main">
         <div class="left-photo">
+            <img src="images/matchabackground.png" alt="Cute bunny with matcha">
             <div class="darkbackground">
                 <p>Matchamaster</p>
-            </div>
-            <div class="photocredit">
-                <p>Photo by ___</p>
             </div>
         </div>
 
 
         <div class="right">
+            <div class="back container">
+                <button onclick="document.location='index.html'">Back</button>
+            </div>
             <div class="description">
                 <p class="description1">
                     We hold matcha ceremonies and face to face tutorials about preparing matcha the proper way.
@@ -31,15 +32,15 @@
                 <p class="description2">These classes are super fun! We <em>encourage</em> you to join these classes.
                 </p>
             </div>
-            <div class="signup container">
+            <div class="signup container-staysleft">
                 <fieldset class="signblock">
                     <p>Are you interested? Sign up below!</p>
                     <form>
                         <div class="basic-info">
                             <div class="first col">
                                 <div class="name input">
-                                    <label for="first_name">First Name</label>
-                                    <input type="text" id="first_name">
+                                    <label for="first_name">First Name*</label>
+                                    <input type="text" id="first_name" required>
                                 </div>
 
                                 <div class="dob input">
@@ -51,24 +52,24 @@
                             <div class="second col">
                                 <div class="last input">
                                     <label for="last_name">Last Name</label>
-                                    <input type="text" id="last_name">
+                                    <input type="text" id="last_name" required>
                                 </div>
                                 <div class="email input">
-                                    <label for="email">Email</label>
-                                    <input type="email" id="email">
+                                    <label for="email">Email*</label>
+                                    <input type="email" id="email" minlength="5" required>
                                 </div>
                             </div>
-                            </div>
-                            <div selection input>
-                                <label type="dropdown" id="reason">Where did you hear about us?</label>
-                                <select name="where">
-                                    <option value="search_engine" selected>Search Engine</option>
-                                    <option value="social_media">Social Media</option>
-                                    <option value="billboard">Billboard</option>
-                                    <option value="streaming_ad">Streaming Service Ad</option>
-                                    <option value="word_of_mouth">Word of mouth</option>
-                                </select>
-                            </div>
+                        </div>
+                        <div class="select" selection input>
+                            <label type="dropdown" id="reason">Where did you hear about us?</label>
+                            <select name="where">
+                                <option value="search_engine" selected>Search Engine</option>
+                                <option value="social_media">Social Media</option>
+                                <option value="billboard">Billboard</option>
+                                <option value="streaming_ad">Streaming Service Ad</option>
+                                <option value="word_of_mouth">Word of mouth</option>
+                            </select>
+                        </div>
                     </form>
                 </fieldset>
             </div>
@@ -87,7 +88,7 @@
 
             </div>
             <div class="sign-in container">
-                <p>Already have an account? Log in</p>
+                <p>Already have an account? <a href="#">Log in</a></p>
             </div>
 
         </div>
