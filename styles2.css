@@ -1,0 +1,23 @@
+* {
+    background-color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gadugi', sans-serif;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+}
+
+.left-photo {
+    height: 100vh;
+    width: 30%;
+    border: 2px solid red;
+}
+
+.right {
+    height: 100vh;
+    width: 70%;
+    border: 2px solid red;
+}
