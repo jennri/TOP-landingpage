@@ -1,3 +1,5 @@
+/* Issues -> google autofill on inputs changes background colour */
+
 * {
     padding: 0;
     margin: 0;
@@ -113,12 +115,17 @@ body {
 
 input {
     border: none;
+    height: 20px;
+    font-size: 18px;
     border-bottom: 2px solid grey;
 
 }
 
-input:focus {
+input:hover,
+input:focus-visible {
+    outline: none;
     border: none;
+    border-bottom: 2px solid grey;
 
 }
 

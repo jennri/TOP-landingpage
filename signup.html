@@ -44,8 +44,8 @@
                                 </div>
 
                                 <div class="dob input">
-                                    <label for="dob">DOB</label>
-                                    <input type="dob" id="dob">
+                                    <label for="dob">Date of Birth</label>
+                                    <input type="date" id="dob">
                                 </div>
 
                             </div>
@@ -56,37 +56,36 @@
                                 </div>
                                 <div class="email input">
                                     <label for="email">Email*</label>
-                                    <input type="email" id="email" minlength="5" required>
+                                    <input type="email" id="email" required>
                                 </div>
                             </div>
                         </div>
                         <div class="select" selection input>
                             <label type="dropdown" id="reason">Where did you hear about us?</label>
                             <select name="where">
-                                <option value="search_engine" selected>Search Engine</option>
+                                <option value="search_engine">Search Engine</option>
                                 <option value="social_media">Social Media</option>
                                 <option value="billboard">Billboard</option>
                                 <option value="streaming_ad">Streaming Service Ad</option>
                                 <option value="word_of_mouth">Word of mouth</option>
+                                <option value="etc" selected>Just wondered over</option>
                             </select>
                         </div>
-                    </form>
+
                 </fieldset>
             </div>
 
             <div class="submit container">
-                <form>
-                    <div class="checkbox-container">
-                        <input type="checkbox" id="newsletter" name="news_letter">
-                        <label for="newsletter">Subscribe to our newsletter!</label>
-                    </div>
-                    <div class="btn-container">
-                        <button type="submit"> Create Account</button>
-                    </div>
-
-                </form>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="newsletter" name="news_letter">
+                    <label for="newsletter">Subscribe to our newsletter!</label>
+                </div>
+                <div class="btn-container">
+                    <button type="submit"> Create Account</button>
+                </div>
 
             </div>
+            </form>
             <div class="sign-in container">
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
